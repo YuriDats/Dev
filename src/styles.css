@@ -1,0 +1,95 @@
+/* You can add global styles to this file, and also import other style files */
+
+@media (min-width:600px) and (max-width:2000px){
+    div#navbarNav {
+        padding-left: 400px;
+    }
+}
+
+@media (min-width:100px) and (max-width: 600px){
+    .imagine{
+        color: white;
+        background: url("src/assets/cmr.jpg") no-repeat;
+        background-size: cover;
+        background-position: top;
+        object-fit: cover;
+        height: 300px;
+        
+        padding: 0;
+        width:100%;
+        margin-bottom: 10px;
+    }
+    .imagine2{
+        color: white;
+        background: url("src/assets/trtr.jpg") no-repeat;
+        background-size:cover;
+        background-position: top;
+        object-fit: cover;
+        height: 300px;
+      
+        padding: 0;
+        width: 100%;
+        margin-top: 10px;
+      }
+    }
+  
+  
+  @media (min-width: 1400px){
+  .imagine {
+    color: white;
+    background: url("src/assets/cmr.jpg") no-repeat;
+    background-size: cover;
+    background-position: top;
+    object-fit: cover;
+    height: 300px;
+    
+    padding: 0;
+    width:33%;
+  }
+
+  .imagine2{
+    color: white;
+    background: url("src/assets/trtr.jpg") no-repeat;
+    background-size: cover;
+    background-position: top;
+    object-fit: cover;
+    height: 300px;
+  
+    padding: 0;
+    width: 33%;
+  }
+    
+}
+@media (min-width: 1400px){
+  .qqq{
+      max-width: 2000px;
+  }
+  .zzz{
+    max-width: 2000px;
+  }
+   
+}
+
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+     max-width:2000px;
+}
+}
+@media (min-width: 992px){
+.container, .container-lg, .container-md, .container-sm {
+    max-width:2000px;
+}
+}
+@media (min-width: 768px){
+.container, .container-md, .container-sm {
+    max-width:2000px;
+}
+}
+@media (min-width: 576px){
+.container, .container-sm {
+    max-width:2000px;
+}
+}
+
+
+  
